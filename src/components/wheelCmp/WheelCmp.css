@@ -1,0 +1,84 @@
+.wheel {
+    width: 24em;
+    height: 24em;
+    border-radius: 280px;
+    box-shadow: inset 0.2em 0.2em 0.2em 0 rgb(255 255 255 / 50%), inset -0.2em -0.2em 0.2em 0 rgb(0 0 0 / 50%);
+    border: 14px outset #191a22;       
+}
+.wheel canvas {
+    width: 75%;
+    height: 75%;
+    -webkit-transform: rotate(-47.5deg);
+    -ms-transform: rotate(-47.5deg);    
+    transform: rotate(-47.5deg);
+    border-radius: 18em;   
+    box-shadow: 0 0 10px #444, 3px 3px 5px #222, inset 3px 3px 7px #444, inset 0 0 5px #222;
+}
+.wheel .bhdLno {
+    -webkit-display: flex;
+    -ms-display: flex;    
+    display: flex;
+    justify-content: center;
+}
+.wheel img[alt~="roulette-static"] { 
+    position: relative;   
+    height: 2.5em;
+    top: 1em;
+    content: url('../../imgs/line.svg'); 
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);    
+    transform: rotate(-45deg);
+    -webkit-filter: invert(33%) sepia(8%) saturate(1386%) hue-rotate(189deg) brightness(98%) contrast(92%);
+    -ms-filter: invert(33%) sepia(8%) saturate(1386%) hue-rotate(189deg) brightness(98%) contrast(92%);    
+    filter: invert(33%) sepia(8%) saturate(1386%) hue-rotate(189deg) brightness(98%) contrast(92%);
+    z-index: -1; 
+}
+.arrowAnim {
+    -webkit-animation: rotation 2s infinite linear;
+    -ms-animation: rotation 2s infinite linear;    
+    animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+    0% {
+        -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);        
+        transform: rotate(-45deg);
+        fill: #505872;
+    }  
+    30% {
+        -webkit-transform: rotate(-15deg);
+        -ms-transform: rotate(-15deg);        
+        transform: rotate(-15deg);
+    }      
+    70% {
+        -webkit-transform: rotate(-75deg);
+        -ms-transform: rotate(-75deg);        
+        transform: rotate(-75deg);
+    }
+    85% {
+        -webkit-transform: rotate(-60deg);
+        -ms-transform: rotate(-60deg);        
+        transform: rotate(-60deg);
+    }    
+    100% {
+        -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);        
+        transform: rotate(-45deg);
+        fill: #505872;
+    }       
+}
+
+@media (max-width: 768px) {
+    .wheel {
+        width: 19em;
+        height: 19em;
+    }
+    .wheel canvas {
+        width: 65%;
+        height: 65%;
+    }
+    .wheel img[alt~="roulette-static"] {
+        top: 2em;
+    }
+}

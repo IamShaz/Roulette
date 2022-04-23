@@ -1,0 +1,37 @@
+.units div {
+    -webkit-display: flex;
+    -ms-display: flex;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.7em;
+    height: 2.7em; 
+    border-radius: 25px;
+}
+.gameInfo {
+    margin-left: 2em;
+    text-align: center;
+    font-size: 1.1em;
+}
+.gameInfoContainer {
+    padding: 1em 0 2em 0; 
+    font-weight: bold;
+}
+.gameInfoContainer .chipDefault:not(.chipSelected), 
+.gameInfoContainer .chipSecond:not(.chipSelected), 
+.gameInfoContainer .chipThird:not(.chipSelected) {
+    border: 3px solid transparent;
+}
+.limits {
+    width: 11em;
+    margin: 0 auto 0.5em auto;  
+    padding: 0.2em 1em;
+    background-color: #131E3F;
+    text-align: center;
+}
+.limits .spacer {
+    margin: 0 1em;
+    position: relative;
+    bottom: 1.5px;
+    color: #ffffff;
+}

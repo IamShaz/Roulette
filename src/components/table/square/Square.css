@@ -1,0 +1,33 @@
+.squareVal {
+    width: 1.7em;
+    height: 1.7em;
+    border-radius: 25px;
+    font-weight: bold;
+}
+.squareBase {
+    flex: 1;   
+    width: 2.5em;
+    height: 2.5em;
+    background-color: #131E3F;
+    border: 1px solid #ffffff;
+    text-align: center;
+    cursor: pointer;
+}
+.zeroSquare {
+    border: none !important;
+}
+.squares .chipDefault, .squares .chipSecond, .squares .chipThird {
+    position: absolute;
+}
+.outsideSquare .squareVal {
+    width: 5em;
+}
+.outsideSquare {
+    background-color: #0E0F21;
+}
+.outsideRed {
+    background-color: #ff0000;
+}
+.outsideBlack {
+    background-color: #000000;
+}

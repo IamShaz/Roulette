@@ -1,0 +1,26 @@
+.chipDefault, .chipSecond, .chipThird {
+    -webkit-display: flex;
+    -ms-display: flex;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto 0.2em;
+    width: 1.5em;
+    height: 1.5em;  
+    border-radius: 25px;
+    color: #ffffff;
+    background-size: contain !important;
+    cursor: pointer;
+}
+.chipDefault {
+    background: url('../../../imgs/chipDefault.png') no-repeat center;
+}
+.chipSecond {
+    background: url('../../../imgs/chipSecond.png') no-repeat center;
+}
+.chipThird {
+    background: url('../../../imgs/chipThird.png') no-repeat center;
+}
+.chipSelected {
+    border: 3px solid #ffffff;
+}
