@@ -8,7 +8,7 @@ See live demo at https://shaz.dev or https://shaz.dev/projects/roulette
 <h3>Built With:</h3>
 <ul>  
   <li>React.JS</li>
-  <li>react-custom-roulette</li>
+  <li>react-custom-roulette (wheel)</li>
 </ul>
 
 ---
