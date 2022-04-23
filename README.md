@@ -1,3 +1,18 @@
+<h2>About</h2>
+
+A game of Roulette.
+
+See live demo at https://shaz.dev or https://shaz.dev/projects/roulette
+
+
+<h3>Built With:</h3>
+<ul>  
+  <li>React.JS</li>
+  <li>react-custom-roulette</li>
+</ul>
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
